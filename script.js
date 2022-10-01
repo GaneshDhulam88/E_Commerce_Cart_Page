@@ -40,7 +40,7 @@ const  discount_code = () => {
 let totalamtcurr = parseInt(total_cart_amt.innerHTML);
 let error_trw = document.getElementById('error_trw');
 if(discountCode.value === 'GD99099'){
-let newtotalamt = totalamtcurr - 15;
+let newtotalamt = totalamtcurr - 50;
 total_cart_amt.innerHTML = newtotalamt;
 error_trw.innerHTML = "Hurray! code is valid";
 }else{
